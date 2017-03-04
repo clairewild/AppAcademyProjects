@@ -1,0 +1,73 @@
+html, body, header, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form, label, input,
+span, article, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.tabs-div {
+  width: 30%;
+}
+
+ul.tabs-ul {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+ul.tabs-ul li {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 7px 7px 0 0;
+  width: 33.33%;
+}
+
+ul.tabs-ul li:hover {
+  cursor: pointer;
+}
+
+li.selected {
+  background-color: lightblue;
+}
+
+article.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 200px;
+  background-color: aliceblue;
+}
