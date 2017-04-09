@@ -1,0 +1,7 @@
+<!-- user show page -->
+
+<h2><%= @user.email %></h2>
+
+<% content_for :footer do %>
+  <%= button_to "Logout", session_url, method: :delete %>
+<% end %>

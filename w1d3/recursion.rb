@@ -1,5 +1,3 @@
-#require 'byebug'
-
 #warmup
 def range(start, end_num)
   return [] if end_num < start

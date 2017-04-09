@@ -1,0 +1,7 @@
+<!-- login page, new_session_url -->
+
+<%= render "shared/form", action_url: session_url, button_text: "Login" %>
+
+<% content_for :footer do %>
+  <%= button_to "Signup", new_user_url, method: :get %>
+<% end %>

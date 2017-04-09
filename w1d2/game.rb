@@ -2,7 +2,6 @@ require_relative "board.rb"
 require_relative "player.rb"
 require_relative "computer_player.rb"
 
-
 class Game
   attr_reader :board, :player
 

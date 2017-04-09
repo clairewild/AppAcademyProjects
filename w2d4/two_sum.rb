@@ -53,4 +53,3 @@ def hash_map(arr, target) # => O(n)
   false
 end
 
-p hash_map(arr, 6)

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <% flash.each do |_, v| %>
+      <p><%= v.first %><p>
+    <% end %>
+
+    <%= yield %>
+  </body>
+
+  <footer>
+    <%= yield :footer %>
+  </footer>
+</html>
