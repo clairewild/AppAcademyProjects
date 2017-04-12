@@ -25,6 +25,10 @@ This repo is a collection of small projects I worked on at App Academy, to vario
 - Time complexity problems
 - Stack and Stack Queue
 
+### w2d5
+- LRU Cache
+- Linked List
+
 ### w3d1
 - SQL zoo
 
